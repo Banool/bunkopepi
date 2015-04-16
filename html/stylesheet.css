@@ -1,0 +1,24 @@
+#centre_content {
+  width: 450px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.quote {
+    font-family: Helvetica;
+    font-size: 14;
+    line-height: 0%;
+    text-align: center;
+}
+
+#quote_small {
+    font-size: 22;
+}
+
+#quote_medium {
+    font-size: 36;
+}
+
+#quote_large {
+    font-size: 72;
+}
