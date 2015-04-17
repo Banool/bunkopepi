@@ -63,8 +63,15 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		color: #ffffff;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+	h6 {
+		color: #000000;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1274,7 +1281,7 @@
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #02244D;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
