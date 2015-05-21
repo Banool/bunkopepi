@@ -200,27 +200,7 @@
 						<h2>Want a sip?</h2>
 						<p>We know you do. So enter your email, the first one is on us.</p>
 					</header>
-					<?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $from = 'From: TangledDemo';
-    $to = 'contact@tangledindesign.com';
-    $subject = 'Hello';
-    $human = $_POST['human'];
-
-    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-
-    if ($_POST['submit'] && $human == '4') {
-        if (mail ($to, $subject, $body, $from)) {
-	    echo '<p>Your message has been sent!</p>';
-	} else {
-	    echo '<p>Something went wrong, go back and try again!</p>';
-	}
-    } else if ($_POST['submit'] && $human != '4') {
-	echo '<p>You answered the anti-spam question incorrectly!</p>';
-    }
-?>
+					
 					<form method="post" action="email.php" class="container 50%">
 						<div class="row uniform 50%">
 							<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
